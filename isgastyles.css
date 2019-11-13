@@ -1,0 +1,138 @@
+* {
+    Margin: 0;
+    Padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(SourceSansPro-Regular.ttf)
+}
+
+section div img {
+    width: 80%;
+}
+
+footer img {
+    width: 30px;
+    height: 10px;
+}
+
+.stewmenu img {
+    width: 150px;
+    height: 130px;
+}
+
+.endivepicture img {
+    width: 300px;
+    height: 250px;
+}
+
+body {
+    color: white;
+    text-align: center;
+    background-color: #000;
+    border-color: white;
+    font-family: SourceSansPro-Regular;
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: scroll;
+}
+
+.necessities {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.steps {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.supermarkets {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.restaurants {
+    font-size: 15px;
+}
+
+.restaurants a {
+    color: white;
+    font-style: italic;
+}
+
+header h1 {
+    font-size: 30pt;
+    font-family: SourceSansPro-Regular;
+}
+
+header h1:nth-child(2) {
+    color: #fff;
+}
+
+header {
+    flex-direction: column;
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40pt;
+}
+
+footer {
+    color: red;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 40px;
+    font-family: SourceSansPro-Regular;
+    width: 100%;
+    flex-shrink: 1;
+}
+
+article {
+    flex: 1 0 auto;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section div {
+    width: 50%;
+    margin-top: 20px;
+}
+
+section div a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+footer img {
+    height: 100%;
+}
+
+footer p {
+    white-space: nowrap;
+}
